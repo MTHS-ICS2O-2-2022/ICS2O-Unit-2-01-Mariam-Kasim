@@ -13,7 +13,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
   <link rel="manifest" href="images/site.webmanifest" />
-  <title> ICS20 Unit-2-01 </title>
+  <title> ICS20 Template </title>
 </head>
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -21,25 +21,29 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Mk's Template</span>
+        <span class="mdl-layout-title">MK's Template</span>
       </div>
     </header>
     <main class="mdl-layout__content">
+      <div class="right-image">
+        <img src="./images/android-chrome-512x512.png" alt="logo">
+      </div>
       <div class="page-content">
-        <img src="./images/android-chrome-512x512.png" alt="logo"> 
+        Click on the button 
+      </div>
+      </br>
+    <!-- Accent-colored raised button with ripple -->
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+      onclick="myButtonClicked()">
+      Click me!
+    </button>
+    <br />
+    <br />
+        <div class="page-content- answer"
+        <div id="answer">
         </div>
-        <br />
-        <!-- Accent-colored raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="myButtonClicked()">
-          Say Hello, World!
-        </button>
-        <br />
-        <br />
-        <div class="page-content-answer">
-          <div id="hello-world"></div>
-        </div>
-        </main>
-        </div>
-        </body>
-        </html>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

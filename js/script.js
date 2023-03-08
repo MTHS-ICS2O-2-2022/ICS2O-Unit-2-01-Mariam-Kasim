@@ -5,5 +5,5 @@
 // This file contains the JS functions for index.html
 
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "Hello, World!"
+  document.getElementById("answer").innerHTML = "Hello, World!"
 }
