@@ -5,13 +5,11 @@
 
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	// This program displays, "Hello, World!"
-  fmt.Println("Hello, World!")
-	
+	fmt.Println("Hello, World!")
+
 	fmt.Println("\nDone.")
 }
